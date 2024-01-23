@@ -43,6 +43,7 @@ class NetworkServiceChecker:
         self.result_label.pack()
         self.result_text.pack(pady=5)
 
+    # ADD
     def check_service(self, host, port):
         try:
             # Use synchronous socket library
